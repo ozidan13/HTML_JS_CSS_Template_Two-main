@@ -10,19 +10,4 @@ window.onscroll = () => {
     };
 };
 
-/*
-
-let sectionCoffeProg = document.querySelector(".stats");
-let divsCoffeProg = document.querySelectorAll(".stats .box .number");
-
-window.onscroll = () => {
-    if (window.scrollY >= sectionCoffeProg.offsetTop) {
-        console.log("ok2");
-        divsCoffeProg.forEach((cafe) => {
-            cafe.value = "2000";
-        });
-    }
-}
-*/
-
 
