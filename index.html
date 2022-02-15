@@ -14,7 +14,19 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
-    <script src="/scripts/main.js"></script>
+    <script>
+        let sectionProg = document.querySelector(".smoth-prog");
+        let spans = document.querySelectorAll(".container .skills span");
+
+        window.onscroll = () => {
+        if (window.scrollY >= sectionProg.offsetTop) {
+          console.log("ok");
+          spans.forEach((span) => {
+              span.style.width = span.dataset.progress;
+          });
+        };
+        };
+    </script>
   </head>
   <body>
     <!-- Start Header -->
