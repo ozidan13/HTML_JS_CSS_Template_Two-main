@@ -559,9 +559,10 @@ header nav .form i {
   margin: 0 auto 30px;
 }
 .stats .container .box .number {
-  font-size: 50px;
+  font-size: 0px;
   font-weight: bold;
   margin: 0 0 20px;
+  transition: all 1s ease;
 }
 .stats .container .box p {
   font-size: 14px;
