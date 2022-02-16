@@ -14,19 +14,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
-    <script>
-        let sectionProg = document.querySelector(".smoth-prog");
-        let spans = document.querySelectorAll(".container .skills span");
-
-        window.onscroll = () => {
-        if (window.scrollY >= sectionProg.offsetTop) {
-          console.log("ok");
-          spans.forEach((span) => {
-              span.style.width = span.dataset.progress;
-          });
-        };
-        };
-    </script>
+    <script src="/scripts/main.js"></script>
   </head>
   <body>
     <!-- Start Header -->
@@ -258,22 +246,22 @@
       <div class="container">
         <div class="box">
           <i class="fas fa-mug-hot"></i>
-          <div class="number" data-progress="1236">1236</div>
+          <div class="number" data-progress="1236"></div>
           <p>Coffee Drinks</p>
         </div>
         <div class="box">
           <i class="far fa-folder"></i>
-          <div class="number" data-progress="256">256</div>
+          <div class="number" data-progress="256"></div>
           <p>Completed Projects</p>
         </div>
         <div class="box">
           <i class="far fa-envelope"></i>
-          <div class="number" data-progress="1743" >1,743</div>
+          <div class="number" data-progress="1743" ></div>
           <p>Mail Sent</p>
         </div>
         <div class="box">
           <i class="fas fa-trophy"></i>
-          <div class="number" data-progress="17">17</div>
+          <div class="number" data-progress="17"></div>
           <p>Awards Received</p>
         </div>
       </div>
